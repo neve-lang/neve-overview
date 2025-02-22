@@ -17,7 +17,7 @@ you still want to check it out, you’re welcome to visit [nevec](https://github
 # Table of Contents 
 
 * [Core Philosophy](#core-philosophy)
-* [Quick Syntactical Overview](#quick-syntax-overview)
+* [Quick Syntactical Overview](#quick-syntactical-overview)
 * [Main Features and Semantics](#main-features-and-semantics)
 * [Conclusion](#conclusion)
 
@@ -513,7 +513,7 @@ let d = some.call.this.and_that(x, y, z)
 
 But the following *won’t*:
 
-```
+```rb
 # doesn’t capture the arguments
 let a = call
 ("Hello")
@@ -530,4 +530,4 @@ Neve considers the following tokens **expression starters**:
 * Opening bracket tokens: `(`, `[`, `|`
 * Identifiers
 * Strings, integers and floats
-* Expression or expression starter keywords: `true`, `false`, `nil`, `not`, `self`, `with`
+  * Expression or expression starter keywords: `true`, `false`, `nil`, `not`, `self`, `with`
